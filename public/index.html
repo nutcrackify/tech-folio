@@ -1,0 +1,49 @@
+
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html ng-app="nutcrackify.tech-folio" ng-controller="appController">
+<head>
+<title>Nutcrackify - Cracking & Teaching everything...</title>
+<!-- Bootstrap -->
+<link href="assets/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugins -->
+<script type="text/javascript" src="assets/js/jquery.min.js">
+</script>
+<script src="assets/js/jquery.wmuSlider.js"></script>
+<script type="text/javascript" src="assets/js/angular/angular.min.js">
+</script>
+<script type="text/javascript" src="assets/js/angular-ui-router/release/angular-ui-router.min.js">
+</script>
+<script src="core/router/router-service.js"></script>
+<script src="views/sections/app/app-controller.js"></script>
+<script src="views/components/header/header.js"></script>
+<script src="views/components/footer/footer.js"></script>
+<script src="core/app/app-service.js"></script>
+<script src="core/page-service/page-service.js"></script>
+<script src="views/components/page-loader/page-loader.js"></script>
+<script src="app.js"></script>
+
+</head>
+
+<body>
+	<folio-header></folio-header>
+
+	<div ui-view></div>
+
+	<folio-footer></folio-footer>
+</body>
+</html>
+
